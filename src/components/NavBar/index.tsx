@@ -11,7 +11,7 @@ const NavBar: React.FC = () => {
 		<Wrapper>
 			<div className='logo'>
 				<img src={Logo} alt='Logo' />
-				<h1 onClick={() => history.push('/home')}>Weather</h1>
+				<h1 onClick={() => history.push('/home')}>Einzigartige Weather</h1>
 			</div>
 			<SearchBar />
 		</Wrapper>
