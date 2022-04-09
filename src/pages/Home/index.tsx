@@ -109,7 +109,7 @@ const Home: React.FC = () => {
 							description={weather.description}
 						/>
 					</div>
-					<div className='daily-forecast'>
+					{/* <div className='daily-forecast'>
 						<h2>Daily Forecast</h2>
 						<Carousel {...carouselSettings}>
 							{forecast.daily.map(day => (
@@ -158,7 +158,7 @@ const Home: React.FC = () => {
 							data={weather.main.humidity + '%'}
 							icon={741}
 						/>
-					</div>
+					</div> */}
 				</>
 			) : (
 				<div className='error'>
