@@ -81,7 +81,8 @@ const Home: React.FC = () => {
 				},
 				() => {
 					setLoading(false);
-					setError('Geolocation not active! Try searching for a city instead');
+					setError('Try searching for a city instead');
+					// setError('Geolocation not active! Try searching for a city instead');
 				}
 			);
 
